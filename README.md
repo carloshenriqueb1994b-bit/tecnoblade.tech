@@ -39,7 +39,7 @@
   /* Hero */
   .hero{position:relative;overflow:hidden}
   .hero::before{
-    content:"";position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=2100&auto=format&fit=crop') center/cover no-repeat;opacity:.18;filter:saturate(0) blur(1px)
+    content:"";position:absolute;inset:0;background:url('https://unsplash.com/pt-br/fotografias/mulher-no-vestido-floral-bege-sem-mangas-LR99Ho2eIec?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash') center/cover no-repeat;opacity:.18;filter:saturate(0) blur(1px)
   }
   .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding:48px 0}
   .h1{font-size:clamp(28px,4vw,56px);line-height:1.05;margin:0 0 10px}
@@ -131,7 +131,7 @@
       </div>
     </div>
     <div class="hero-card">
-      <img alt="Showroom" src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35c1?q=80&w=1600&auto=format&fit=crop">
+      <img alt="Showroom" src="https://unsplash.com/pt-br/fotografias/mulher-no-vestido-preto-da-pulseira-do-espaguete-oEvKyQNdqQk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash">
       <div class="small" style="margin-top:8px">Entrega para todo o Brasil • Garantia e Nota Fiscal</div>
     </div>
   </div>
@@ -184,7 +184,7 @@
     <h3>Contato</h3>
     <div class="small">Dúvidas? Fale com a Tecnoblade tech pelo WhatsApp:
       <a class="link" href="https://wa.me/55+61+998807331" target="_blank" rel="noopener">clique aqui</a>.
-      (edite o número acima para o seu)
+      
     </div>
   </div>
 </section>
@@ -223,27 +223,37 @@
   const BRL = new Intl.NumberFormat('pt-BR',{style:'currency', currency:'BRL'});
   const products = [
     {
-      id:'iphone15pm', name:'iPhone 15 Pro Max', brand:'Apple', category:'Smartphones',
+      id:'sz2411192286648868', name:'EastFlair Vestido Longo Elegante Feminino de Gola Keyhole com Estampa Floral, Verão', brand:'SDNGED', category:'VESTIDO',
       price:5000.99, oldPrice:9999.99, rating:4.9, ratingsCount:2847, badge:'Mais Vendido',
-      img:'https://images.unsplash.com/photo-1695048133145-1c29a2b3d527?q=80&w=1200&auto=format&fit=crop'
+      img:'https://onelink.shein.com/15/4y5jzeno4a3v'
     },
     {
-      id:'macbook-air-m3', name:'MacBook Air M3', brand:'Apple', category:'Laptops',
+      id:'sz2403153058384854', name:'Vestido de Coquetel Bodycon Feminino com Alça de Tela', brand:'SDNGED', category:'VESTIDO',
       price:10999.99, oldPrice:14999.99, rating:4.8, ratingsCount:1592, badge:'Oferta',
-      img:'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop'
+      img:'https://onelink.shein.com/15/4y5jyj36bej8'
     },
     {
-      id:'s24u', name:'Samsung Galaxy S24 Ultra', brand:'Samsung', category:'Smartphones',
+      id:'sz2403290680971974', name:' Vestido de Verão Casual para Férias com Estampa Floral Miúda Azul, Decote Sexy Nas', brand:'BAE', category:'VESTIDO',
       price:7499.99, oldPrice:8299.99, rating:4.7, ratingsCount:3241, badge:'Novo',
-      img:'https://images.unsplash.com/photo-1606904825809-00287b2a0f19?q=80&w=1200&auto=format&fit=crop'
+      img:'https://onelink.shein.com/15/4y5jxtfrw3eu'
     },
     {
-      id:'ipad-air', name:'iPad Air (M2)', brand:'Apple', category:'Tablets',
+      id:'sz2409297427021180', name:'Vestido Curto Ombro a Ombro', brand:'SWEETRA', category:'VESTIDO',
       price:4799.99, oldPrice:5299.99, rating:4.8, ratingsCount:1022, badge:'Oferta',
-      img:'https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1200&auto=format&fit=crop'
+      img:'https://onelink.shein.com/15/4y5jy78zmdd5'
     },
     {
-      id:'lenovo-slim', name:'Lenovo Slim 7', brand:'Lenovo', category:'Laptops',
+      id:'sz2404031349538033', name:'Vestido Longo Vintage Flapper dos Anos 1920', brand:'LVNES RETRO', category:'VESTIDO',
+      price:5699.00, oldPrice:6199.90, rating:4.6, ratingsCount:811, badge:'',
+      img:'https://onelink.shein.com/15/4y5jx5rejfot'
+    },
+     {
+      id:'sm25021327520814558', name:'Terno Slim Traje Masculino Executivo Completo', brand:'PLENITUDE TERNOS', category:'TERNO',
+      price:5699.00, oldPrice:6199.90, rating:4.6, ratingsCount:811, badge:'',
+      img:'https://br.shein.com/Slim-Suit-Men-s-Executive-Complete-Attire-Pants-Blazer-Vest-Various-Colors-p-56455726.html?src_identifier=st%3D2%60sc%3DTERNO%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_goods_detail1755476209910&pageListType=4&imgRatio=1-1&pageListType=4'
+    },
+     {
+      id:'sz2404031349538033', name:'Vestido Longo Vintage Flapper dos Anos 1920', brand:'Lenovo', category:'VESTIDO',
       price:5699.00, oldPrice:6199.90, rating:4.6, ratingsCount:811, badge:'',
       img:'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop'
     },
