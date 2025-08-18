@@ -8,14 +8,14 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.tecnoblade.tech' viewBox='0 0 64 64'%3E%3Cpath fill='%23ff3b30' d='M32 6l9 12h11l-8 10 8 10H41l-9 12-9-12H12l8-10-8-10h11z'/%3E%3C/svg%3E">
 <style>
   :root{
-    --bg:#0f172a; /* slate-900 */
-    --bg-2:#111827; /* gray-900 */
-    --card:#1f2937; /* gray-800 */
+    --bg:#0f124a; /* slate-900 */
+    --bg-2:#116487; /* gray-900 */
+    --card:#1f3767; /* gray-200 */
     --text:#e5e7eb; /* gray-200 */
     --muted:#9ca3af; /* gray-400 */
-    --brand:#ef4444; /* red-500 */
-    --brand-2:#f97316; /* orange-500 */
-    --accent:#22c55e; /* green-500 */
+    --brand:#ef4444; /* red-700 */
+    --brand-2:#f97316; /* orange-200 */
+    --accent:#22c55e; /* green-300 */
     --shadow:0 10px 30px rgba(0,0,0,.35);
     --radius:18px;
   }
